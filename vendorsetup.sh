@@ -1,0 +1,2 @@
+add_lunch_combo rascarlo_emulator-eng
+add_lunch_combo rascarlo_maguro-user
