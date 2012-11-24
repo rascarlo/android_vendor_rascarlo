@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
 # system/app
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/rascarlo/proprietary/common/app/DeskClockGoogle.apk:system/app/DeskClockGoogle.apk \
     vendor/rascarlo/proprietary/common/app/EmailGoogle.apk:system/app/EmailGoogle.apk \
     vendor/rascarlo/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
     vendor/rascarlo/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
