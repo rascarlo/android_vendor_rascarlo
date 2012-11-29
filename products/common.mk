@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/Gallery2Google.apk:system/app/Gallery2Google.apk
 endif
 
-ifneq ($(filter rascarlo_grouper rascarlo_maguro,$(TARGET_PRODUCT)),)
+ifneq ($(filter rascarlo_grouper rascarlo_maguro rascarlo_toro,$(TARGET_PRODUCT)),)
 # Blobs common to all devices except emulator and tablets
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
