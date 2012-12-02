@@ -45,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/rascarlo/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/rascarlo/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+    vendor/rascarlo/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/rascarlo/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/rascarlo/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/rascarlo/proprietary/common/app/VideoEditor.apk:system/app/VideoEditor.apk
