@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/GoogleServicesFramework.apk:system/app/GoogleServicesFramework.apk \
     vendor/rascarlo/proprietary/common/app/GoogleTTS.apk:system/app/GoogleTTS.apk \
     vendor/rascarlo/proprietary/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
-    vendor/rascarlo/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
     vendor/rascarlo/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
     vendor/rascarlo/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/rascarlo/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
