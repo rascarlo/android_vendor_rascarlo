@@ -30,7 +30,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk \
     vendor/rascarlo/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
-    vendor/rascarlo/proprietary/common/app/EmailGoogle.apk:system/app/EmailGoogle.apk \
     vendor/rascarlo/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
     vendor/rascarlo/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/rascarlo/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
