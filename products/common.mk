@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/rascarlo/proprietary/common/app/EmailGoogle.apk:system/app/EmailGoogle.apk \
+    vendor/rascarlo/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/rascarlo/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
     vendor/rascarlo/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/rascarlo/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
@@ -45,6 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/rascarlo/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/rascarlo/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
+    vendor/rascarlo/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/rascarlo/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/rascarlo/proprietary/common/app/VideoEditor.apk:system/app/VideoEditor.apk
 
@@ -84,13 +86,6 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
 # Blobs common to all devices except emulator
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/Gallery2Google.apk:system/app/Gallery2Google.apk
-endif
-
-ifneq ($(filter rascarlo_grouper rascarlo_maguro rascarlo_toro,$(TARGET_PRODUCT)),)
-# Blobs common to all devices except emulator and tablets
-PRODUCT_COPY_FILES += \
-    vendor/rascarlo/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/rascarlo/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk
 endif
 
 # Enable SIP+VoIP on all targets
