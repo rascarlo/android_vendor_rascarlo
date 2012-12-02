@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/lib/libgtalk_stabilize.so:system/lib/libgtalk_stabilize.so \
     vendor/rascarlo/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/rascarlo/proprietary/common/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
-    vendor/rascarlo/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
+    vendor/rascarlo/proprietary/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/rascarlo/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/rascarlo/proprietary/common/lib/liblightcycle.so:system/lib/liblightcycle.so \
     vendor/rascarlo/proprietary/common/lib/libpatts_engine_jni_api.so:system/lib/libpatts_engine_jni_api.so \
