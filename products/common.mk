@@ -18,6 +18,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/common
 
+# Common dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/dictionaries
+
 # Supersu
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
