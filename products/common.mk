@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
 
 # system/app
 PRODUCT_COPY_FILES += \
+    vendor/rascarlo/proprietary/common/app/BrowserProviderProxy.apk:system/app/BrowserProviderProxy.apk \
     vendor/rascarlo/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
     vendor/rascarlo/proprietary/common/app/EmailGoogle.apk:system/app/EmailGoogle.apk \
     vendor/rascarlo/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
