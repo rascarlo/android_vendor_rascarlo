@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
     vendor/rascarlo/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/rascarlo/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+    vendor/rascarlo/proprietary/common/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/rascarlo/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/rascarlo/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
     vendor/rascarlo/proprietary/common/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
