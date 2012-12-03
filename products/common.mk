@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/vendor/firmware/smc_pa_wvdrm.ift:system/vendor/firmware/smc_pa_wvdrm.ift
 
 # Blobs common to all devices except emulator
-ifneq ($(filter rascarlo_grouper rascarlo_maguro rascarlo_toro,$(TARGET_PRODUCT)),)
+ifneq ($(filter rascarlo_grouper rascarlo_maguro rascarlo_mako rascarlo_toro,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/Gallery2Google.apk:system/app/Gallery2Google.apk \
     vendor/rascarlo/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
