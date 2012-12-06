@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/rascarlo/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml
 
+# system/etc/prederref-apps
+PRODUCT_COPY_FILES += \
+    vendor/rascarlo/proprietary/common/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml
+
 # system/framework
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar
