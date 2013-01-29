@@ -21,11 +21,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/common
 # Common dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/dictionaries
 
-# Volume Rocker Wake
-ifneq ($(filter rascarlo_emulator rascarlo_maguro rascarlo_manta rascarlo_toro,$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/volume_rocker
-endif
-
 # Supersu
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
