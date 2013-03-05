@@ -19,8 +19,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mantaray BUILD_FINGERPRINT=google/m
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
 
-# Inherit drm blobs
--include vendor/rascarlo/products/common_drm_phone.mk
-
 # Inherit common build.prop overrides
 -include vendor/rascarlo/products/common_versions.mk
