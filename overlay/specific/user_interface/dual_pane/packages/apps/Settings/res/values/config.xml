@@ -17,6 +17,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- User interface -->
-    <bool name="config_show_user_interface">true</bool>
+    <bool name="config_show_user_interface_dual_pane">true</bool>
 </resources>
 

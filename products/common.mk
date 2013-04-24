@@ -25,8 +25,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/dictionaries
 SUPERUSER_EMBEDDED := true
 
 # User interface device specific
+# dual pane
 ifneq ($(filter rascarlo_emulator rascarlo_grouper rascarlo_maguro rascarlo_maguro_en rascarlo_mako rascarlo_mako_en rascarlo_toro,$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/specific/user_interface
+PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/specific/user_interface/dual_pane
 endif
 
 # system/lib
