@@ -24,11 +24,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/dictionaries
 # Koush superuser
 SUPERUSER_EMBEDDED := true
 
-# User interface device specific
-ifneq ($(filter rascarlo_emulator rascarlo_grouper rascarlo_maguro rascarlo_maguro_en rascarlo_mako rascarlo_mako_en rascarlo_toro,$(TARGET_PRODUCT)),)
-PRODUCT_PACKAGE_OVERLAYS += vendor/rascarlo/overlay/specific/user_interface
-endif
-
 # system/lib
 PRODUCT_COPY_FILES += \
     vendor/rascarlo/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
