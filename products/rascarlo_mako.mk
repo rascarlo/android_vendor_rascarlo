@@ -1,4 +1,4 @@
-# Inherit AOSP device configuration for grouper.
+# Inherit AOSP device configuration for mako.
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
 # Inherit common product files.
