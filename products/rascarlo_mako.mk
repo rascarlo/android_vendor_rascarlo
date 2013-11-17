@@ -11,7 +11,9 @@ PRODUCT_DEVICE := mako
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/mako:4.4/KRT16O/893803:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.4 KRT16O 893803 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occam/mako:4.4/KRT16O/893803:user/release-keys \
+    PRIVATE_BUILD_DESC="occam-user 4.4 KRT16O 893803 release-keys"
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk

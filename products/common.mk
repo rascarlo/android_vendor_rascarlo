@@ -13,15 +13,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
-# Overlays common to all devices except emulator
-ifeq ($(TARGET_BUILD_VARIANT),user)
-# Build Launcher 3
+# Launcher3 supported devices
+ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     Launcher3
 endif
 
-# Overlays common to all devices with telephony
-ifeq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
+# STK: overlay common to all devices with telephony
+ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
 # Build SimToolKit
 PRODUCT_PACKAGES += \
     Stk
