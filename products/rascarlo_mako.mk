@@ -17,3 +17,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
+
+# boot animation
+PRODUCT_COPY_FILES += \
+    vendor/rascarlo/proprietary/mako/system/media/bootanimation.zip:system/media/bootanimation.zip
