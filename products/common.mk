@@ -14,13 +14,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 # Launcher3 supported devices
-ifneq ($(filter rascarlo_mako,$(TARGET_PRODUCT)),)
+ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     Launcher3
 endif
 
 # STK: overlay common to all devices with telephony
-ifneq ($(filter rascarlo_mako,$(TARGET_PRODUCT)),)
+ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
 # Build SimToolKit
 PRODUCT_PACKAGES += \
     Stk
