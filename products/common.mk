@@ -17,6 +17,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     Launcher3
+# Auto-rotate
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/rascarlo/overlay/Launcher3
 endif
 
 # STK: overlay common to all devices with telephony
