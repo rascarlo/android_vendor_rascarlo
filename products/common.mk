@@ -24,7 +24,9 @@ endif
 
 # STK: overlay common to all devices with telephony
 ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
--include vendor/rascarlo/products/common_telephony.mk
+# Build SimToolKit
+PRODUCT_PACKAGES += \
+    Stk
 endif
 
 # Common overlay
