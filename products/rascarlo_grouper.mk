@@ -11,9 +11,11 @@ PRODUCT_DEVICE := grouper
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 
+#Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=nakasi BUILD_FINGERPRINT=google/nakasi/grouper:4.4.2/KOT49H/937116:user/release-keys \
-    PRIVATE_BUILD_DESC="nakasi-user 4.4.2 KOT49H 937116 release-keys"
+    PRODUCT_NAME=nakasi \
+    BUILD_FINGERPRINT=google/nakasig/tilapia:4.4.3/KTU84L/1148727:user/release-keys \
+    PRIVATE_BUILD_DESC="nakasig-user 4.4.3 KTU84L 1148727 release-keys"
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
