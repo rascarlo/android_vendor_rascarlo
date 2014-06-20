@@ -14,8 +14,8 @@ PRODUCT_MANUFACTURER := LGE
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=hammerhead \
-    BUILD_FINGERPRINT=google/hammerhead/hammerhead:4.4.3/KTU84M/1158763:user/release-keys \
-    PRIVATE_BUILD_DESC="hammerhead-user 4.4.3 KTU84M 1158763 release-keys"
+    BUILD_FINGERPRINT=google/hammerhead/hammerhead:4.4.4/KTU84P/1227136:user/release-keys \
+    PRIVATE_BUILD_DESC="hammerhead-user 4.4.4 KTU84P 1227136 release-key"
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
