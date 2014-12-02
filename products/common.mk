@@ -14,7 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 # Launcher3 supported devices
-ifneq ($(filter rascarlo_mako rascarlo_hammerhead,$(TARGET_PRODUCT)),)
+ifneq ($(filter rascarlo_hammerhead rascarlo_mako rascarlo_shamu,$(TARGET_PRODUCT)),)
 PRODUCT_PACKAGES += \
     Launcher3
 # Auto-rotate
@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # STK: overlay common to all devices with telephony
-ifneq ($(filter rascarlo_hammerhead,$(TARGET_PRODUCT)),)
+ifneq ($(filter rascarlo_hammerhead rascarlo_mako rascarlo_shamu,$(TARGET_PRODUCT)),)
 # Build SimToolKit
 PRODUCT_PACKAGES += \
     Stk
