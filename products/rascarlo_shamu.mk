@@ -19,3 +19,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
+
+# Enable tethering
+PRODUCT_PROPERTY_OVERRIDES += \
+net.tethering.noprovisioning=true
