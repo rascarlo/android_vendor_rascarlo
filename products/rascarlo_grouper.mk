@@ -14,8 +14,8 @@ PRODUCT_MANUFACTURER := asus
 #Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=nakasi \
-    BUILD_FINGERPRINT=google/nakasi/grouper:5.0.2/LRX22G/1649326:user/release-keys \
-    PRIVATE_BUILD_DESC="nakasi-user 5.0.2 LRX22G 1649326 release-keys"
+    BUILD_FINGERPRINT=google/nakasi/grouper:5.1/LMY47D/1743759:user/release-keys \
+    PRIVATE_BUILD_DESC="nakasi-user 5.1 LMY47D 1743759 release-keys"
 
 # Inherit media effect blobs
 -include vendor/rascarlo/products/common_media_effects.mk
